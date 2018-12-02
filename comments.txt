@@ -1,0 +1,12 @@
+Add your general design and decision comments here:
+
+I did not make a log in screen, the chat is interactrive in the way that whenever the user name is changed the avatar icon is changing to the relevant user.
+
+
+
+
+
+Feedback regarding this exam is always welcomed.
+What did you like? What didn't you like? What was missing?
+
+The challenge is very good, i've learned about react a lot here. this is my first react coding experience, and i enjoyed it.

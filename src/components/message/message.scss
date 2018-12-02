@@ -1,0 +1,9 @@
+.messageContent {
+  margin-right: 3%;
+}
+.message {
+  width: 100% !important;
+  &.highlight {
+    background-color: #0082dd !important;
+  }
+}
