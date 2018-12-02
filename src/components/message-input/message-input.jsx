@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Image, List, Card, Divider } from "semantic-ui-react";
+import { Card } from "semantic-ui-react";
 import { CardHeader, CardText, CardActions } from "material-ui/Card";
 import TextField from "material-ui/TextField";
 import FloatingActionButton from "material-ui/FloatingActionButton";
@@ -65,18 +65,24 @@ class MessageInput extends Component {
                 hintText="Enter a name"
                 onKeyUp={this.handleUserKeyUp}
                 value={username}
+                name="username"
                 onChange={this.handleUsernameChange}
                 required
               />
               <TextField
                 hintText="Enter a message"
                 value={this.state.message}
+                name="message"
                 onChange={this.handleMessageChange}
                 required
               />
             </CardText>
             <CardActions>
-              <FloatingActionButton className="sendButton" type="submit">
+              <FloatingActionButton
+                name="submit"
+                className="sendButton"
+                type="submit"
+              >
                 Send
               </FloatingActionButton>
             </CardActions>

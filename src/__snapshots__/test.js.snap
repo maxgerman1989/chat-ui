@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message component Message Component Snapshot 1`] = `
+<div
+  className="ui card message highlight"
+  onClick={[Function]}
+>
+  <div
+    className="content"
+  >
+    <div
+      style={
+        Object {
+          "MozBoxSizing": "border-box",
+          "boxSizing": "border-box",
+          "fontWeight": 500,
+          "muiPrepared": true,
+          "padding": 16,
+          "position": "relative",
+          "whiteSpace": "nowrap",
+        }
+      }
+    >
+      <img
+        size={40}
+        src="https://spotim-demo-chat-server.herokuapp.com/avatars/001-snorlax.png"
+        style={
+          Object {
+            "MozUserSelect": "none",
+            "WebkitAlignItems": "center",
+            "WebkitBoxAlign": "center",
+            "WebkitBoxPack": "center",
+            "WebkitJustifyContent": "center",
+            "WebkitUserSelect": "none",
+            "alignItems": "center",
+            "backgroundColor": "rgb(188, 188, 188)",
+            "borderRadius": "50%",
+            "color": "#ffffff",
+            "display": "inline-flex",
+            "fontSize": 20,
+            "height": 40,
+            "justifyContent": "center",
+            "marginRight": 16,
+            "msFlexAlign": "center",
+            "msFlexPack": "center",
+            "msUserSelect": "none",
+            "muiPrepared": true,
+            "userSelect": "none",
+            "width": 40,
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "display": "inline-block",
+            "muiPrepared": true,
+            "paddingRight": "90px",
+            "verticalAlign": "top",
+            "whiteSpace": "normal",
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "color": "rgba(0, 0, 0, 0.87)",
+              "display": "block",
+              "fontSize": 15,
+              "muiPrepared": true,
+            }
+          }
+        >
+          max
+        </span>
+        <span
+          style={
+            Object {
+              "color": "rgba(0, 0, 0, 0.54)",
+              "display": "block",
+              "fontSize": 14,
+              "muiPrepared": true,
+            }
+          }
+        >
+          2018-12-2 10:00:00
+        </span>
+      </div>
+    </div>
+    <div
+      className="messageContent"
+      style={
+        Object {
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontSize": 14,
+          "muiPrepared": true,
+          "padding": 16,
+        }
+      }
+    >
+      message
+    </div>
+  </div>
+</div>
+`;
